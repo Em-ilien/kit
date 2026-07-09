@@ -65,7 +65,8 @@ const plugin = function (defaults = {}) {
 				if (builder.hasServerInstrumentationFile()) {
 					builder.instrument({
 						entrypoint: `${tmp}/index.js`,
-						instrumentation: `${builder.getServerDirectory()}/instrumentation.server.js`
+						instrumentation: `${builder.getServerDirectory()}/instrumentation.server.js`,
+						env: 'process.env'
 					});
 				}
 
