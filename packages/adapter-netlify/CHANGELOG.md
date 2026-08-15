@@ -1,5 +1,13 @@
 # @sveltejs/adapter-netlify
 
+## 7.0.0-next.9
+
+### Patch Changes
+
+- fix: strip trailing slashes from prerendered paths in the edge function exclude list, so the root page is served statically when using a base path ([#16788](https://github.com/sveltejs/kit/pull/16788))
+- Updated dependencies [[`7f1db04`](https://github.com/sveltejs/kit/commit/7f1db0430b2ad771fff965990ec42d0fccf9528a), [`fb0e21c`](https://github.com/sveltejs/kit/commit/fb0e21cf32a5b8546ee97ddf18a24a900bb71509), [`6e7d44d`](https://github.com/sveltejs/kit/commit/6e7d44d62434b0bf1e01e646f3bb3fcfc2c3715c), [`97ad63a`](https://github.com/sveltejs/kit/commit/97ad63a45c65614081de72ac089e92e8d572bfa2), [`a610618`](https://github.com/sveltejs/kit/commit/a6106186090e72d2b6d11fae4004b95c7579e75d), [`4682127`](https://github.com/sveltejs/kit/commit/46821277fe201b7fbe151d4343d59f149ca3a89d), [`7f1db04`](https://github.com/sveltejs/kit/commit/7f1db0430b2ad771fff965990ec42d0fccf9528a), [`97ad63a`](https://github.com/sveltejs/kit/commit/97ad63a45c65614081de72ac089e92e8d572bfa2), [`ef70fc7`](https://github.com/sveltejs/kit/commit/ef70fc775ff89a8f86eb62cb5b7a5e01884af563), [`7d78680`](https://github.com/sveltejs/kit/commit/7d78680a721c3f337812bdbc2868fc326fde7419), [`b361b81`](https://github.com/sveltejs/kit/commit/b361b815e79828a6b7404d759d0a4c3892814a4e)]:
+  - @sveltejs/kit@3.0.0-next.24
+
 ## 7.0.0-next.8
 
 ### Patch Changes

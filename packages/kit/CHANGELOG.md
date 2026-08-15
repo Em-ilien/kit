@@ -1,5 +1,33 @@
 # @sveltejs/kit
 
+## 3.0.0-next.24
+
+### Minor Changes
+
+- feat: support the `QUERY` HTTP method in `+server.js` ([#16782](https://github.com/sveltejs/kit/pull/16782))
+
+### Patch Changes
+
+- fix: keep at most one pending body read at a time when deserializing binary forms ([#16783](https://github.com/sveltejs/kit/pull/16783))
+
+- fix: resolve client manifest imports against the Vite root ([#16803](https://github.com/sveltejs/kit/pull/16803))
+
+- fix: render the nearest `+error.svelte` at the depth it occupies when an error is thrown during rendering ([#16526](https://github.com/sveltejs/kit/pull/16526))
+
+- fix: wait for the redirect navigation before remote form submissions resolve ([#16765](https://github.com/sveltejs/kit/pull/16765))
+
+- fix: don't crash on interactions inside a form whose controls shadow `nodeName` ([#16769](https://github.com/sveltejs/kit/pull/16769))
+
+- fix: correctly read zero-length files at the end of a binary form payload ([#16783](https://github.com/sveltejs/kit/pull/16783))
+
+- fix: wait for the redirect navigation before prerendered remote functions resolve ([#16765](https://github.com/sveltejs/kit/pull/16765))
+
+- chore: share the nearest error page walk between client and server ([#16774](https://github.com/sveltejs/kit/pull/16774))
+
+- chore: unify the `walk` and `list_files` filesystem helpers ([#16784](https://github.com/sveltejs/kit/pull/16784))
+
+- chore: emit env modules to disk ([#16745](https://github.com/sveltejs/kit/pull/16745))
+
 ## 3.0.0-next.23
 
 ### Patch Changes
